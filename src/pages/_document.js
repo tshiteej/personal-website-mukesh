@@ -2,27 +2,28 @@ import NextDocument, { Html, Head, Main, NextScript } from "next/document"
 import { ColorModeScript } from "@chakra-ui/react"
 
 import { GA_TRACKING_ID } from "../lib/gtag"
-
+import Script from "next/script"
 export default class MyDocument extends NextDocument {
   render() {
     return (
       <Html lang="en">
         <Head>
-          <meta charset="UTF-8" />
+          <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-          <script src="https://chat.pepsico-staging.onereach.ai/lib/richWebChat.umd.min.js"></script>
+          <Script src="https://chat.pepsico-staging.onereach.ai/lib/richWebChat.umd.min.js" id={"rich-web"}></Script>
           <link
             rel="stylesheet"
             href="https://chat.pepsico-staging.onereach.ai/lib/richWebChat.css"
           />
           {/* Global Site Tag (gtag.js) - Google Analytics */}
 
-          <script
+          <Script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+            id={"gtag"}
           />
-          <script
+          <Script
             dangerouslySetInnerHTML={{
               __html: `
             window.dataLayer = window.dataLayer || [];
@@ -33,6 +34,7 @@ export default class MyDocument extends NextDocument {
             });
           `,
             }}
+            id={"something"}
           />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
@@ -66,7 +68,7 @@ export default class MyDocument extends NextDocument {
           <ColorModeScript />
           <Main />
           <div id="rwc"></div> {/* Insert the div for richWebChat */}
-          <script
+          <Script
             dangerouslySetInnerHTML={{
               __html: `
               document.addEventListener("DOMContentLoaded", function () {
@@ -106,6 +108,7 @@ export default class MyDocument extends NextDocument {
               });
               `,
             }}
+            id={"css"}
           />
           <NextScript />
         </body>
