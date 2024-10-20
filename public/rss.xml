@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Blog posts | RSS Feed]]></title>
+        <description><![CDATA[Welcome to this blog posts!]]></description>
+        <link>http://localhost:3000</link>
+        <image>
+            <url>http://localhost:3000/logo.png</url>
+            <title>Blog posts | RSS Feed</title>
+            <link>http://localhost:3000</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Sun, 20 Oct 2024 19:36:55 GMT</lastBuildDate>
+        <atom:link href="http://localhost:3000/rss.xml" rel="self" type="application/rss+xml"/>
+        <pubDate>Sun, 20 Oct 2024 19:36:55 GMT</pubDate>
+        <copyright><![CDATA[All rights reserved 2024, Ibas]]></copyright>
+        <item>
+            <title><![CDATA[What is Serverless Computing?]]></title>
+            <description><![CDATA[Tired of listening about Serverless computing! What it really is?]]></description>
+            <link>http://localhost:3000/blog/what-is-serverless-computing</link>
+            <guid isPermaLink="true">http://localhost:3000/blog/what-is-serverless-computing</guid>
+            <pubDate>Sat, 22 Apr 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Top 10 JS Array methods to make your life easier]]></title>
+            <description><![CDATA[Here are 10 of the most useful array methods in JavaScript to make your life less stressful.]]></description>
+            <link>http://localhost:3000/blog/top-10-js-array-methods-to-make-your-life-easier</link>
+            <guid isPermaLink="true">http://localhost:3000/blog/top-10-js-array-methods-to-make-your-life-easier</guid>
+            <pubDate>Sun, 25 Apr 2021 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Lazy Developers Way to Load Balancer]]></title>
+            <description><![CDATA[What is a load balancer, and it's types? Let's understand.]]></description>
+            <link>http://localhost:3000/blog/the-lazy-developers-way-to-load-balancer</link>
+            <guid isPermaLink="true">http://localhost:3000/blog/the-lazy-developers-way-to-load-balancer</guid>
+            <pubDate>Fri, 11 Mar 2022 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Test Automation Using Python and Selenium]]></title>
+            <description><![CDATA[Try automating your web tests with Python and Selenium]]></description>
+            <link>http://localhost:3000/blog/test-automation-using-python-and-selenium</link>
+            <guid isPermaLink="true">http://localhost:3000/blog/test-automation-using-python-and-selenium</guid>
+            <pubDate>Sun, 26 Apr 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Proxies and Reverse Proxies]]></title>
+            <description><![CDATA[Discover the key differences between proxies and reverse proxies and their impact on web applications]]></description>
+            <link>http://localhost:3000/blog/proxies-and-reverse-proxies</link>
+            <guid isPermaLink="true">http://localhost:3000/blog/proxies-and-reverse-proxies</guid>
+            <pubDate>Sun, 29 Jan 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How regex in python isn’t as bad as you think?]]></title>
+            <description><![CDATA[Ever thought of solving a problem with regex and ended up with 2 problems. No more!]]></description>
+            <link>http://localhost:3000/blog/how-regex-in-python-isnt-as-bad-as-you-think</link>
+            <guid isPermaLink="true">http://localhost:3000/blog/how-regex-in-python-isnt-as-bad-as-you-think</guid>
+            <pubDate>Wed, 15 Apr 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[gRPC: Simplifying Communication in Modern Applications]]></title>
+            <description><![CDATA[What is gRPC? What are its advantages over REST and SOAP?]]></description>
+            <link>http://localhost:3000/blog/grpc-simplifying-communication-in-modern-applications</link>
+            <guid isPermaLink="true">http://localhost:3000/blog/grpc-simplifying-communication-in-modern-applications</guid>
+            <pubDate>Fri, 09 Jun 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Concurrency and Parallelism Explained]]></title>
+            <description><![CDATA[What is the difference between Concurrency and Parallelism?]]></description>
+            <link>http://localhost:3000/blog/concurrency-and-parallelism</link>
+            <guid isPermaLink="true">http://localhost:3000/blog/concurrency-and-parallelism</guid>
+            <pubDate>Thu, 04 Jan 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Common Architectures in Distributed Systems]]></title>
+            <description><![CDATA[4 common architectural patterns in Distributed Systems]]></description>
+            <link>http://localhost:3000/blog/common-architectures-in-distributed-systems</link>
+            <guid isPermaLink="true">http://localhost:3000/blog/common-architectures-in-distributed-systems</guid>
+            <pubDate>Mon, 03 Jul 2023 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[An Introduction to Microservices.]]></title>
+            <description><![CDATA[What is a microservice? Is it really a solution to all the architectural problems?]]></description>
+            <link>http://localhost:3000/blog/an-introduction-to-microservcies</link>
+            <guid isPermaLink="true">http://localhost:3000/blog/an-introduction-to-microservcies</guid>
+            <pubDate>Mon, 01 May 2023 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

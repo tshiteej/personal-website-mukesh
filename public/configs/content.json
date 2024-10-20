@@ -1,0 +1,59 @@
+{
+  "menu": [
+    {
+      "display": "Home",
+      "route": "/"
+    },
+    {
+      "display": "Articles",
+      "route": "/blog"
+    }
+  ],
+  "experience": [
+    {
+      "company": "DsMatics",
+      "designations": [
+        {
+          "designation": "Freelancer - Senior Software Engineer",
+          "duration": "May 2023 - Present"
+        }
+      ],
+      "link": null,
+      "linkText": null,
+      "image": "https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGFwdG9wfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+      "company": "Fiverr",
+      "designations": [
+        {
+          "designation": "Freelancer - Software Developer",
+          "duration": "May 2022 - May 2023"
+        }
+      ],
+      "link": null,
+      "linkText": null,
+      "image": "https://images.unsplash.com/photo-1559336197-ded8aaa244bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2806&q=80"
+    },
+    {
+      "company": "Yellow AI",
+      "designations": [
+        {
+          "designation": "Software Engineer",
+          "duration": "August 2020 - May 2022"
+        }
+      ],
+      "link": "https://yellow.ai/",
+      "linkText": "yellow.ai",
+      "image": "https://images.unsplash.com/photo-1559336197-ded8aaa244bc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2806&q=80"
+    },
+    {
+      "company": "MFilterIt",
+      "designations": [
+        { "designation": "Summer Internship", "duration": "2018" }
+      ],
+      "link": "https://www.mfilterit.com/",
+      "linkText": "MFilterIt",
+      "image": "https://www.sagacent.com/wp-content/uploads/2019/04/server-clustering.jpg"
+    }
+  ]
+}
